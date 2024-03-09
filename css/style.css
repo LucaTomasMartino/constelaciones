@@ -62,10 +62,10 @@ span{
     font-weight: bold;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 24ch;
+    width: 26ch;
     margin-top: auto;
 
-    animation:typing 2s steps(24),
+    animation:typing 2s steps(26),
     blink .5s infinite step-end alternate;
     overflow: hidden;
 }
@@ -160,6 +160,7 @@ span{
     transform: perspective(600px) rotateY(360deg);
 }
 footer {
+    font-family: "Protest Revolution", sans-serif;
     width: 100%;
     padding: 5px 60px;
     background-image: url(../assets/background-footer.svg);
@@ -195,6 +196,7 @@ footer {
     padding: 0px 40px;
 }
 .box-copy p{
+    font-family: 'Lobster', sans-serif;
     margin-top: 20px;
     color: #7a7a7a;
 }
