@@ -7,6 +7,12 @@ body{
     font-family: sans-serif;
     font-family: 'Lobster', sans-serif;
 }
+h2{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
 .header-arriba{
     background-color: rgb(84, 167, 192);
 }
@@ -60,7 +66,7 @@ main{
 }
 
 .welcome-message {
-    background-color:rgba(37, 37, 37, 0.5);
+    background-color:rgba(37, 37, 37, 0.9);
     color:#ececec;
     padding: 20px;
     border-radius: 10px;
@@ -93,14 +99,63 @@ main{
 #accept-button:hover {
     background-color:  rgb(84, 167, 192);
 }
+.que-son-las-constelaciones {
+    background-color: rgb(84, 167, 192); /* Fondo */
+    color: white; /* Color de texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 30px; /* Bordes redondeados */
+    margin-top: 15px;
+    margin-bottom: 20px; /* Espaciado inferior */
+}
 
-.material-icons{
+.que-son-las-constelaciones h2 {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+    background: linear-gradient(to right,  rgb(84, 167, 192), #feb47b); /* Fondo degradado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    border-radius: 5px; 
+}
+
+.que-son-las-constelaciones div {
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.que-son-las-constelaciones p {
+    font-size: 16px; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina el margen por defecto */
+}
+.constelaciones-familiares-explicacion{
+    background-color: rgb(84, 167, 192); /* Fondo */
+    color: white; /* Color de texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 30px; /* Bordes redondeados */
+    margin-top: 15px;
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+.constelaciones-familiares-explicacion h2{
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+    background: linear-gradient(to right,  rgb(84, 167, 192), #feb47b); /* Fondo degradado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    border-radius: 5px; 
+}
+.constelaciones-familiares-explicacion div{
+    margin-bottom: 10px;
+}
+.constelaciones-familiares-explicacion p {
+    font-size: 16px; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina el margen por defecto */
+}
+.material-icons {
+    font-size: 24px; /* Tamaño del ícono */
+    margin-right: 10px; /* Espaciado derecho */
     color: #7a7a7a;
     border-right: none;
     width: 8ch;
-}
-.bienvenida p{
-    text-align: center;
 }
 span{
     display: block;
@@ -320,8 +375,11 @@ footer {
 
 
 @media (max-width: 425px){
+    h2{
+        font-size: 20px;
+    }
     p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .logo{
         margin-top:-10px;
