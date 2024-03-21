@@ -126,6 +126,19 @@ main{
     line-height: 1.6; /* Espaciado entre líneas */
     margin: 0; /* Elimina el margen por defecto */
 }
+.bert-hellinger{
+    text-align: center;
+}
+.bert-hellinger img{
+    width: 90px;
+    height: auto;
+    border: solid 2px rgb(84, 134, 192) ;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+.bert-hellinger img:hover{
+    transform: scale(1.1);
+}
 .constelaciones-familiares-explicacion{
     background-color: rgb(84, 167, 192); /* Fondo */
     color: white; /* Color de texto */
@@ -171,6 +184,66 @@ span{
     animation:typing 2s steps(26),
     blink .5s infinite step-end alternate;
     overflow: hidden;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.q-podemos-constelar, .quienes-pueden-constelar {
+    width: calc(50% - 7.5px); /* Calcula el 50% del ancho menos el espacio */
+    margin-right: 15px; /* Espacio entre los divs */
+}
+.q-podemos-constelar{
+    background-color: rgb(84, 167, 192) ;
+    color: white; /* Color de texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 40px; /* Bordes redondeados */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-style: dashed;
+}
+.q-podemos-constelar h2{
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+    background: linear-gradient(to right,  rgb(84, 167, 192), #feb47b); /* Fondo degradado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    border-radius: 5px; 
+}
+.q-podemos-constelar div{
+    margin-bottom: 10px;
+}
+.q-podemos-constelar p{
+    font-size: 16px; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina el margen por defecto */
+}
+.quienes-pueden-constelar{
+    background-color: rgb(84, 167, 192) ;
+    color: white; /* Color de texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 40px; /* Bordes redondeados */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 0; /* Elimina el margen derecho del último div */
+    border-style: dashed;
+}
+.quienes-pueden-constelar h2{
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+    background: linear-gradient(to right,  rgb(84, 167, 192), #feb47b); /* Fondo degradado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    border-radius: 5px; 
+}
+.quienes-pueden-constelar div{
+    margin-bottom: 10px;
+}
+.quienes-pueden-constelar p{
+    font-size: 16px; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina el margen por defecto */
 }
 @keyframes typing{
     from{
@@ -370,6 +443,14 @@ footer {
     }
     .nav-list li a {
         color: #ecececec;
+    }
+    .contenedor {
+        flex-direction: column; /* Cambia la dirección a una columna */
+        align-items: center; /* Centra los divs en el eje horizontal */
+    }
+    
+    .q-podemos-constelar, .quienes-pueden-constelar {
+        margin: 15px 0; /* Espacio entre los divs cuando están apilados */
     }
 }
 
