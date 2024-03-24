@@ -335,6 +335,58 @@ span{
 #card-nosotros:hover .back{
     transform: perspective(600px) rotateY(360deg);
 }
+.formulario {
+        width: 50%;
+        margin: 50px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    .formulario h2 {
+        color: #283629;
+        text-align: center;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #283629;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        color: #283629;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #283629;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #283629;
+    }
+    input::placeholder, textarea::placeholder{
+        color: #b5cab6;
+    }
 footer {
     font-family: "Protest Revolution", sans-serif;
     width: 100%;
