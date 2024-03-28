@@ -245,6 +245,32 @@ span{
     line-height: 1.6; /* Espaciado entre líneas */
     margin: 0; /* Elimina el margen por defecto */
 }
+.asistencia-sistemica{
+    background-color: rgb(84, 167, 192) ;
+    color: white; /* Color de texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 40px; /* Bordes redondeados */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 0; /* Elimina el margen derecho del último div */
+    border-style: dashed;
+}
+.asistencia-sistemica h2{
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+    background: linear-gradient(to right,  rgb(84, 167, 192), #feb47b); /* Fondo degradado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    border-radius: 5px; 
+}
+.asistencia-sistemica div{
+    margin: 10px;
+}
+.asistencia-sistemica p{
+    font-size: 16px; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Elimina el margen por defecto */
+}
 @keyframes typing{
     from{
         width: 0;
@@ -369,6 +395,7 @@ span{
         border-radius: 5px;
         box-sizing: border-box;
         color: #283629;
+        margin-bottom: 20px;
     }
 
     input[type="submit"] {
